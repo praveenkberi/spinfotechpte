@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer components {
+    .btn-prmary{
+        @apply bg-cyan-500 text-white hover:bg-blue-700/80 duration-300 rounded-lg
+        py-2 px-3
+    }
+}
